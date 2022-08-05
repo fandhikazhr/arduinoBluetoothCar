@@ -39,5 +39,13 @@ void loop() {
       motor3.run(FORWARD); //rotate the motor clockwise
       motor4.run(FORWARD); //rotate the motor clockwise
     }
+    
+    // inisialisasi kondisi mundur ke belakang
+    if (val == 'B') {
+      motor1.run(BACKWARD); //rotate the motor anti-clockwise
+      motor2.run(BACKWARD); //rotate the motor anti-clockwise
+      motor3.run(BACKWARD); //rotate the motor anti-clockwise
+      motor4.run(BACKWARD); //rotate the motor anti-clockwise
+    }
   }
 }
