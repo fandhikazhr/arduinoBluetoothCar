@@ -31,5 +31,13 @@ void loop() {
     motor2.run(RELEASE); 
     motor3.run(RELEASE); 
     motor4.run(RELEASE); 
+    
+    // inisialisasi kondisi maju kedepan
+    if (val == 'F') {
+      motor1.run(FORWARD); //rotate the motor clockwise
+      motor2.run(FORWARD); //rotate the motor clockwise
+      motor3.run(FORWARD); //rotate the motor clockwise
+      motor4.run(FORWARD); //rotate the motor clockwise
+    }
   }
 }
