@@ -25,5 +25,11 @@ void setup()
 void loop() {
   if (SerialBT.available()) {
     val = SerialBT.read();
+    
+    // inisialisasi kondisi stop motor
+    motor1.run(RELEASE); 
+    motor2.run(RELEASE); 
+    motor3.run(RELEASE); 
+    motor4.run(RELEASE); 
   }
 }
