@@ -21,3 +21,7 @@ void setup()
   motor3.setSpeed(255);   // atur kecepatan motor
   motor4.setSpeed(255);   // atur kecepatan motor
 }
+
+void loop() {
+  
+}
