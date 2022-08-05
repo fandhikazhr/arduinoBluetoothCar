@@ -24,6 +24,6 @@ void setup()
 
 void loop() {
   if (SerialBT.available()) {
-    
+    val = SerialBT.read();
   }
 }
