@@ -34,18 +34,18 @@ void loop() {
     
     // inisialisasi kondisi maju kedepan
     if (val == 'F') {
-      motor1.run(FORWARD); //rotate the motor clockwise
-      motor2.run(FORWARD); //rotate the motor clockwise
-      motor3.run(FORWARD); //rotate the motor clockwise
-      motor4.run(FORWARD); //rotate the motor clockwise
+      motor1.run(FORWARD); 
+      motor2.run(FORWARD); 
+      motor3.run(FORWARD);
+      motor4.run(FORWARD); 
     }
     
     // inisialisasi kondisi mundur ke belakang
     if (val == 'B') {
-      motor1.run(BACKWARD); //rotate the motor anti-clockwise
-      motor2.run(BACKWARD); //rotate the motor anti-clockwise
-      motor3.run(BACKWARD); //rotate the motor anti-clockwise
-      motor4.run(BACKWARD); //rotate the motor anti-clockwise
+      motor1.run(BACKWARD); 
+      motor2.run(BACKWARD); 
+      motor3.run(BACKWARD); 
+      motor4.run(BACKWARD);
     }
   }
 }
