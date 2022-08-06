@@ -16,8 +16,8 @@ This Project Using
 10. Mini Breadboard
 
 For control you can use 2 application below :
-- https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller
-- https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor
+- [Bluetooth RC Car](https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller)
+- [Arduino Bluetooth Controller](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor)
 
 # Diagram 
 
