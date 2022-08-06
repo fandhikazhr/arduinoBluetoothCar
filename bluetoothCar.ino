@@ -47,5 +47,13 @@ void loop() {
       motor3.run(BACKWARD); 
       motor4.run(BACKWARD);
     }
+    
+    // inisialisasi kondisi belok kiri
+    if (val == 'L') {
+      motor1.run(BACKWARD); 
+      motor2.run(BACKWARD); 
+      motor3.run(FORWARD);  
+      motor4.run(FORWARD);  
+    }
   }
 }
