@@ -15,6 +15,10 @@ This Project Using
 9. Switch On/Off
 10. Mini Breadboard
 
+For control you can use 2 application below :
+- https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller
+- https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor
+
 # Diagram 
 
 ![bluetoothArduinoCar](https://user-images.githubusercontent.com/99522867/164149185-ac463574-85fa-41ae-9fa3-b2f4d06415d4.png)
