@@ -55,5 +55,21 @@ void loop() {
       motor3.run(FORWARD);  
       motor4.run(FORWARD);  
     }
+    
+    // inisialisasi kondisi belok kanan
+    if (val == 'R') {
+      motor1.run(FORWARD); 
+      motor2.run(FORWARD); 
+      motor3.run(BACKWARD); 
+      motor4.run(BACKWARD); 
+    }
+    
+    // kondisi berhenti
+    if (val == 'S') {
+      motor1.run(RELEASE); 
+      motor2.run(RELEASE); 
+      motor3.run(RELEASE); 
+      motor4.run(RELEASE); 
+    }
   }
 }
