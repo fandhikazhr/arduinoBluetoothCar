@@ -28,6 +28,18 @@ void loop() {
     motor1.run(RELEASE); 
     motor2.run(RELEASE); 
     motor3.run(RELEASE); 
-    motor4.run(RELEASE); 
+    motor4.run(RELEASE);
+    
+    if (val == 'F') {
+      motor1.setSpeed(255); 
+      motor1.run(FORWARD); 
+      motor2.setSpeed(255); 
+      motor2.run(FORWARD); 
+      motor3.setSpeed(255);
+      motor3.run(FORWARD); 
+      motor4.setSpeed(255);
+      motor4.run(FORWARD); 
+    }
+    
   }
 }
