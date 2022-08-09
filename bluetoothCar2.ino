@@ -52,5 +52,16 @@ void loop() {
       motor4.run(BACKWARD); 
     }
     
+    if (val == 'L') {
+      motor1.setSpeed(255); 
+      motor1.run(BACKWARD); 
+      motor2.setSpeed(255); 
+      motor2.run(BACKWARD); 
+      motor3.setSpeed(255);
+      motor3.run(FORWARD);  
+      motor4.setSpeed(255);
+      motor4.run(FORWARD);  
+    }
+    
   }
 }
