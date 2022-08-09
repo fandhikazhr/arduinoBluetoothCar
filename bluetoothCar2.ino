@@ -22,5 +22,7 @@ void setup()
 }
 
 void loop() {
-  
+  if (SerialBT.available()) {
+   
+  }
 }
