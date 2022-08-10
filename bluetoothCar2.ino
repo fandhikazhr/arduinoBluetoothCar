@@ -107,5 +107,16 @@ void loop() {
       motor4.run(BACKWARD); 
     }
     
+    if (val == 'H') {
+      motor1.setSpeed(255); 
+      motor1.run(BACKWARD); 
+      motor2.setSpeed(255); 
+      motor2.run(BACKWARD); 
+      motor3.setSpeed(255 / 3.1); 
+      motor3.run(BACKWARD); 
+      motor4.setSpeed(255 / 3.1); 
+      motor4.run(BACKWARD); 
+    }
+    
   }
 }
