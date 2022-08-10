@@ -84,6 +84,17 @@ void loop() {
       motor4.setSpeed(255);
       motor4.run(FORWARD); 
     }
+   
+    if (val == 'G') {
+      motor1.setSpeed(255); 
+      motor1.run(FORWARD); 
+      motor2.setSpeed(255); 
+      motor2.run(FORWARD); 
+      motor3.setSpeed(255 / 3.1); 
+      motor3.run(FORWARD); 
+      motor4.setSpeed(255 / 3.1); 
+      motor4.run(FORWARD); 
+    }
     
   }
 }
