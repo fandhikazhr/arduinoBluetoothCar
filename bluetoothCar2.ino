@@ -118,5 +118,12 @@ void loop() {
       motor4.run(BACKWARD); 
     }
     
+    if (val == 'S') {
+      motor1.run(RELEASE); 
+      motor2.run(RELEASE); 
+      motor3.run(RELEASE); 
+      motor4.run(RELEASE); 
+    }
+    
   }
 }
