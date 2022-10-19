@@ -29,4 +29,4 @@ For control you can use 2 application below :
 
 # Documentation
 
-This Documentation : https://bit.ly/bluetoothCar
+This Documentation of [Arduino Bluetooth Car](https://medium.com/@fandhikaazhar/arduino-bluetooth-car-21586f2130dd)
